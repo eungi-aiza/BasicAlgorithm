@@ -25,4 +25,4 @@
 
 ## 📚 Members & `directory`
 1. 김은지 `eunji`
-2. 이명주 `myeonjoo`
+2. 이명주 `myeongjoo`
