@@ -20,7 +20,7 @@
 ## :1st_place_medal: Status
 |                             은지                             |                             명주                             |                             
 | :----------------------------------------------------------: | :----------------------------------------------------------: | 
-|[![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=kuman5262)](https://solved.ac/kuman5262) |          |
+|[![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=kuman5262)](https://solved.ac/kuman5262) | [![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=ckgn316)](https://solved.ac/ckgn316) |
 
 
 ## 📚 Members & `directory`
