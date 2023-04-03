@@ -21,8 +21,12 @@
 |                             은지                             |                             명주                             |                             
 | :----------------------------------------------------------: | :----------------------------------------------------------: | 
 |[![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=kuman5262)](https://solved.ac/kuman5262) | [![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=ckgn316)](https://solved.ac/ckgn316) |
+|                             동화                             |                                                              |                             
+| :----------------------------------------------------------: | :----------------------------------------------------------: | 
+|[![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=fairytale)](https://solved.ac/fairytale) | |
 
 
 ## 📚 Members & `directory`
 1. 김은지 `eunji`
 2. 이명주 `myeongjoo`
+3. 김동화 `donghwa`
