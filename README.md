@@ -13,7 +13,7 @@
 
 |     날짜   |                             강의                             |                            문제집                            |  
 | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: | 
-| 2022-04-06 | :film_strip: [기초 코드 작성 요령 1](https://youtu.be/9MMKsrvRiw4)<br>  :film_strip: [기초 코드 작성 요령 2](https://youtu.be/6lhVHP8bkPA) | :bookmark_tabs: [기초 코드 작성 요령 2](https://www.acmicpc.net/workbook/view/7306) |
+| 2023-04-10 | :film_strip: [기초 코드 작성 요령 1](https://youtu.be/9MMKsrvRiw4)<br>  :film_strip: [기초 코드 작성 요령 2](https://youtu.be/6lhVHP8bkPA) | :bookmark_tabs: [기초 코드 작성 요령 2](https://www.acmicpc.net/workbook/view/7306) |
 
 
 
