@@ -5,9 +5,9 @@
 - Reference : :book: [바킹독의 실전 알고리즘](https://www.youtube.com/watch?v=LcOIobH7ues&list=PLtqbFd2VIQv4O6D6l9HcD732hdrnYb6CY) / [문제집](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md)
 
 - Rules 
-    - 매주 두 문제씩 풀이 업데이트
-    - 월요일, 수요일에 파이썬으로 새로운 문제 풀고,
-    - 화요일, 목요일에 C언어로 전 날의 동일 문제 풀기
+    - 매주 최소 두 문제씩 풀이 업데이트
+    - 각 문제는 반드시 파이썬 & C언어로 모두 풀어보기
+    - 두 문제 이상 풀지 못한 멤버는 해당 주에 커피 한 잔 :coffee:
 
 ## :calendar: Schedule
 
