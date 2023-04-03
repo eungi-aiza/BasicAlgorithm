@@ -21,8 +21,7 @@
 |                             은지                             |                             명주                             |                             
 | :----------------------------------------------------------: | :----------------------------------------------------------: | 
 |[![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=kuman5262)](https://solved.ac/kuman5262) | [![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=ckgn316)](https://solved.ac/ckgn316) |
-|                             동화                             |                                                              |                             
-| :----------------------------------------------------------: | :----------------------------------------------------------: | 
+|                             동화                             |                                                              |    
 |[![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=fairytale)](https://solved.ac/fairytale) | |
 
 
