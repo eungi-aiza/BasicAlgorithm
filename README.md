@@ -1,6 +1,6 @@
 # BasicAlgorithm
 
-## :pencil: 규칙
+## :pencil: To-do List
 
 - Reference : :book: [바킹독의 실전 알고리즘](https://www.youtube.com/watch?v=LcOIobH7ues&list=PLtqbFd2VIQv4O6D6l9HcD732hdrnYb6CY) / [문제집](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md)
 
@@ -9,7 +9,7 @@
     - 월요일, 수요일에 파이썬으로 새로운 문제 풀고,
     - 화요일, 목요일에 C언어로 전 날의 동일 문제 풀기
 
-## :calendar: 스케쥴
+## :calendar: Schedule
 
 |     날짜   |                             강의                             |                            문제집                            |  
 | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: | 
