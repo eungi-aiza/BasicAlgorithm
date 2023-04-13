@@ -7,7 +7,7 @@
 - Rules 
     - 매주 최소 두 문제씩 풀이 업데이트
     - 각 문제는 반드시 파이썬 & C언어로 모두 풀어보기
-    - 두 문제 이상 풀지 못한 멤버는 해당 주에 커피 한 잔 :coffee:
+    - 두 문제 이상 풀지 못한 멤버는 그 다음 주에 커피 돌리기 :coffee:
 
 ## :calendar: Schedule
 
@@ -21,7 +21,7 @@
 |                             은지                             |                             명주                             |                             
 | :----------------------------------------------------------: | :----------------------------------------------------------: | 
 |[![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=kuman5262)](https://solved.ac/kuman5262) | [![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=ckgn316)](https://solved.ac/ckgn316) |
-|                             동화                             |                             채윤                             |    
+|                             **동화**                             |                             **채윤**                             |    
 |[![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=fairytale)](https://solved.ac/fairytale) | [![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=dianecy1121)](https://solved.ac/dianecy1121) |
 
 
