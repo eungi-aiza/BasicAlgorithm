@@ -24,6 +24,8 @@
 |[![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=kuman5262)](https://solved.ac/kuman5262) | [![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=ckgn316)](https://solved.ac/ckgn316) |
 |                             **동화**                             |                             **채윤**                             |    
 |[![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=fairytale)](https://solved.ac/fairytale) | [![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=dianecy1121)](https://solved.ac/dianecy1121) |
+|                             **상수**                             |                                                          |    
+|[![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=imsangsoo)](https://solved.ac/imsangsoo) |  |
 
 
 ## 📚 Members & `directory`
@@ -31,3 +33,4 @@
 2. 이명주 `myeongjoo`
 3. 김동화 `donghwa`
 4. 김채윤 `chaeyun`
+5. 임상수 `sangsoo`
