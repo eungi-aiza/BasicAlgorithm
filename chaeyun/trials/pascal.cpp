@@ -1,7 +1,12 @@
+// leetcode : https://leetcode.com/problems/pascals-triangle/
+// boj : https://www.acmicpc.net/problem/16395
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
 using namespace std;
+
+// 재귀로 푸니까 돌아는 가는데 leetcode boj 모두 timeout 뜸
 
 int combination(int n, int r){
     if(n == r || r == 0) 
