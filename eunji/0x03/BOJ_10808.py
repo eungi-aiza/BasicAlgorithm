@@ -1,0 +1,1 @@
+inputs = map(str, input())

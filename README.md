@@ -15,6 +15,7 @@
 | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | 
 | 2023-04-10 | :film_strip: [기초 코드 작성 요령 1](https://youtu.be/9MMKsrvRiw4)<br>  :film_strip: [기초 코드 작성 요령 2](https://youtu.be/6lhVHP8bkPA) | :bookmark_tabs: [기초 코드 작성 요령 2](https://www.acmicpc.net/workbook/view/7306) | 🗂 [기초 코드 작성 요령 1](https://blog.encrypted.gg/922)<br> 🗂 [기초 코드 작성 요령 2](https://blog.encrypted.gg/923) |
 | 2023-04-17 | :film_strip: [배열](https://www.youtube.com/watch?v=mBeyFsHqzHg&list=PLtqbFd2VIQv4O6D6l9HcD732hdrnYb6CY&index=4) | :bookmark_tabs: [배열](https://www.acmicpc.net/workbook/view/7307) | 🗂 [배열](https://blog.encrypted.gg/927) |
+| 2022-04-24 |   :film_strip: [연결 리스트](https://youtu.be/C6MX5u7r72E)   | :bookmark_tabs: [연결 리스트](https://www.acmicpc.net/workbook/view/7308) |   🗂 [연결리스트](https://blog.encrypted.gg/932)  |
 
 
 
