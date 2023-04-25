@@ -35,3 +35,8 @@
 3. 김동화 `donghwa`
 4. 김채윤 `chaeyun`
 5. 임상수 `sangsoo`
+
+
+## 🗄 참고 자료
+- [Python 백준 문제 풀이 시 입출력 정리](https://paris-in-the-rain.tistory.com/72)
+
