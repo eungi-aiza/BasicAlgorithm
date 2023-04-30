@@ -1,6 +1,6 @@
 import sys
-sys.stdout = open('output.txt', 'w')
-sys.stdin = open("input.txt", "r")
+# sys.stdout = open('output.txt', 'w')
+# sys.stdin = open("input.txt", "r")
 
 class Node:
     def __init__(self, data):
@@ -32,6 +32,7 @@ for i in range(M):
             temp = start.next
             start = start.prev
             start.next = temp
+            if temp: temp.prev = start
     if len(inputs) == 2:
         order = inputs[0]; target = inputs[1]
         if order == 'P':
@@ -48,4 +49,4 @@ while ans.next:
     print(ans.data, end="")
     
 
-sys.stdout.close()
+# sys.stdout.close()
