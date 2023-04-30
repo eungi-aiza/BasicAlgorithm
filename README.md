@@ -15,6 +15,7 @@
 | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | 
 | 2023-04-10 | :film_strip: [기초 코드 작성 요령 1](https://youtu.be/9MMKsrvRiw4)<br>  :film_strip: [기초 코드 작성 요령 2](https://youtu.be/6lhVHP8bkPA) | :bookmark_tabs: [기초 코드 작성 요령 2](https://www.acmicpc.net/workbook/view/7306) | 🗂 [기초 코드 작성 요령 1](https://blog.encrypted.gg/922)<br> 🗂 [기초 코드 작성 요령 2](https://blog.encrypted.gg/923) |
 | 2023-04-17 | :film_strip: [배열](https://www.youtube.com/watch?v=mBeyFsHqzHg&list=PLtqbFd2VIQv4O6D6l9HcD732hdrnYb6CY&index=4) | :bookmark_tabs: [배열](https://www.acmicpc.net/workbook/view/7307) | 🗂 [배열](https://blog.encrypted.gg/927) |
+| 2022-04-24 |   :film_strip: [연결 리스트](https://youtu.be/C6MX5u7r72E)   | :bookmark_tabs: [연결 리스트](https://www.acmicpc.net/workbook/view/7308) |   🗂 [연결리스트](https://blog.encrypted.gg/932)  |
 
 
 
@@ -24,6 +25,8 @@
 |[![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=kuman5262)](https://solved.ac/kuman5262) | [![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=ckgn316)](https://solved.ac/ckgn316) |
 |                             **동화**                             |                             **채윤**                             |    
 |[![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=fairytale)](https://solved.ac/fairytale) | [![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=dianecy1121)](https://solved.ac/dianecy1121) |
+|                             **상수**                             |                                                          |    
+|[![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=imsangsoo)](https://solved.ac/imsangsoo) |  |
 
 
 ## 📚 Members & `directory`
@@ -31,3 +34,9 @@
 2. 이명주 `myeongjoo`
 3. 김동화 `donghwa`
 4. 김채윤 `chaeyun`
+5. 임상수 `sangsoo`
+
+
+## 🗄 참고 자료
+- [Python 백준 문제 풀이 시 입출력 정리](https://paris-in-the-rain.tistory.com/72)
+
