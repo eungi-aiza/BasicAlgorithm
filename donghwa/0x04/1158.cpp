@@ -2,7 +2,7 @@
 using namespace std;
 
 const int MX = 5000;
-int res[MX], prv[MX], nxt[MX];
+int res[MX], prv[MX], nxt[MX], dat[MX];
 int cursor = 0;
 
 void move(int cnt){
@@ -11,9 +11,10 @@ void move(int cnt){
         cnt--;
     }
 }
-void dlt(int cursor){
+void dlt(){
     nxt[prv[cursor]] = nxt[cursor];
     prv[nxt[cursor]] = prv[cursor];
+    cursor = nxt[cursor];
 }
 
 
@@ -23,7 +24,7 @@ int main(void){
     cin >> N;
 
     for (int i=0; i<N; i++){
-        // dat[i] = i;
+        dat[i] = i;
         if (i == 0){
             prv[i] = N-1;
             nxt[i] = i+1;
@@ -35,22 +36,22 @@ int main(void){
             nxt[i] = i+1;
         }
     }
-
     int cnt;
     cin >> cnt;
     int idx = 0;
+    int M = N;
     while (N != 0){
-        move(cnt);
+        move(cnt-1);
         res[idx] = cursor ;
-        dlt(cursor);
+        dlt();
         idx ++;
         N --;
     }
     idx = 0;
     cout << "<";
     while (res[idx] != -1){
-        cout << res[idx];
-        if (idx != N-1) cout << ", ";
+        cout << res[idx]+1;
+        if (idx != M-1) cout << ", ";
         idx++;
     }
     cout << ">";
