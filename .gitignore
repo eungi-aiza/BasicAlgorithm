@@ -1,6 +1,7 @@
 
 # Created by https://www.toptal.com/developers/gitignore/api/c++,visualstudio,windows,macos,visualstudiocode,clion
 # Edit at https://www.toptal.com/developers/gitignore?templates=c++,visualstudio,windows,macos,visualstudiocode,clion
+*.txt
 
 ### C++ ###
 # Prerequisites
@@ -627,4 +628,7 @@ data/
 
 ## myungjoo
 myungjoo/test
+<<<<<<< HEAD
+=======
 
+>>>>>>> 89ac2411f05e3fa949160d3c344c89bdd479fd16
