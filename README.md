@@ -17,6 +17,7 @@
 | 2023-04-17 | :film_strip: [배열](https://www.youtube.com/watch?v=mBeyFsHqzHg&list=PLtqbFd2VIQv4O6D6l9HcD732hdrnYb6CY&index=4) | :bookmark_tabs: [배열](https://www.acmicpc.net/workbook/view/7307) | 🗂 [배열](https://blog.encrypted.gg/927) |
 | 2023-04-24 |   :film_strip: [연결 리스트](https://youtu.be/C6MX5u7r72E)   | :bookmark_tabs: [연결 리스트](https://www.acmicpc.net/workbook/view/7308) |   🗂 [연결리스트](https://blog.encrypted.gg/932)  |
 | 2023-05-01 | :film_strip: [스택](https://www.youtube.com/watch?v=0DsyCXIN7Wg) | :bookmark_tabs: [스택](https://www.acmicpc.net/workbook/view/7309) |  🗂 [스택](https://blog.encrypted.gg/933)    |
+| 2023-05-08 | :film_strip: [큐](https://www.youtube.com/watch?v=D_fwSy5tRAY) | :bookmark_tabs: [큐](https://www.acmicpc.net/workbook/view/7310) | 🗂 [큐](https://blog.encrypted.gg/934)  |
 
 
 ## :1st_place_medal: Status
