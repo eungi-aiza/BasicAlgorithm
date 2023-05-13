@@ -42,4 +42,5 @@ int main(void) {
     cout << S.top() << endl;
     
     // S.empty인데 top 호출하면 runtime error 발생함
+    return 0;
 }
