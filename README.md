@@ -40,7 +40,7 @@
 3. 김동화 `donghwa`
 4. 김채윤 `chaeyun`
 5. 임상수 `sangsoo`
-6. 이승훈
+6. 이승훈 `seunghoon`
 
 
 ## 🗄 참고 자료
