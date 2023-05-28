@@ -20,6 +20,7 @@
 | 2023-05-08 | :film_strip: [큐](https://www.youtube.com/watch?v=D_fwSy5tRAY) | :bookmark_tabs: [큐](https://www.acmicpc.net/workbook/view/7310) | 🗂 [큐](https://blog.encrypted.gg/934)  |
 | 2023-05-15 | :film_strip: [덱](https://www.youtube.com/watch?v=0mEzJ4S1d8o) | :bookmark_tabs: [덱](https://www.acmicpc.net/workbook/view/7311) |  🗂 [덱](https://blog.encrypted.gg/935) |
 | 2023-05-22 | :film_strip: [스택의 활용](https://www.youtube.com/watch?v=cdjjk-ryPKc) | :bookmark_tabs: [스택의 활용](https://www.acmicpc.net/workbook/view/7312) |  🗂 [스택의 활용](https://blog.encrypted.gg/936) |
+| 2023-05-29 | :film_strip: [BFS](https://www.youtube.com/watch?v=ftOmGdm95XI&list=PLtqbFd2VIQv4O6D6l9HcD732hdrnYb6CY&index=10)<br> | :bookmark_tabs: [BFS](https://www.acmicpc.net/workbook/view/7313)<br> | 🗂 [스택의 활용](https://blog.encrypted.gg/941) |
 
 
 
@@ -29,8 +30,8 @@
 |[![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=kuman5262)](https://solved.ac/kuman5262) | [![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=ckgn316)](https://solved.ac/ckgn316) |
 |                             **동화**                             |                             **채윤**                             |    
 |[![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=fairytale)](https://solved.ac/fairytale) | [![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=dianecy1121)](https://solved.ac/dianecy1121) |
-|                             **상수**                             |                                                          |    
-|[![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=imsangsoo)](https://solved.ac/imsangsoo) |  |
+|                             **상수**                             |                             **숭훈**                             |   
+|[![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=imsangsoo)](https://solved.ac/imsangsoo) | [![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=wanderer_of_winter)](https://solved.ac/wanderer_of_winter) |
 
 
 ## 📚 Members & `directory`
@@ -39,6 +40,7 @@
 3. 김동화 `donghwa`
 4. 김채윤 `chaeyun`
 5. 임상수 `sangsoo`
+6. 이승훈
 
 
 ## 🗄 참고 자료
