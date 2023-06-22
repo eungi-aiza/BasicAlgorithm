@@ -19,12 +19,9 @@ int main(){
     dq2.push_back(idx); idx += 1;// 다리에 어떤 트럭이 올라와 있는지 저장 // idx는 다리에 들어갈 트럭의 index를 가리킴
     sum += dq.front(); dq.pop_front();
     int numzero = 0;
-    int ttt = 0;
     while(1){
         // 맨 앞차의 무게 설정
         int front_truck = 0; 
-        ttt += 1;
-        // cout << ttt << endl;
         if (dq2.front() == -1) front_truck = 0; // dummy 변수이면, 0;
         else front_truck = v[dq2.front()]; 
         // 각 경우 마다 확인
