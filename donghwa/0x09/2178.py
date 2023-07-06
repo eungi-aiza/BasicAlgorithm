@@ -7,11 +7,12 @@ py = [0, 1, 0, -1]
 n, m = map(int, sys.stdin.readline().split())
 board = [[int(c) for c in sys.stdin.readline().strip()] for _ in range(n)]
 dist = [[-1]*m for _ in range(n)]
-print(board)
+# print(board)
 Q = deque([])
+dist[0][0] += 1
 Q.append((0,0))
 while (len(Q)>0) :
-    cx, cy = Q.pop()
+    cx, cy = Q.popleft()
     for dir in range(4) :
         dx = cx + px[dir]
         dy = cy + py[dir]
@@ -21,8 +22,9 @@ while (len(Q)>0) :
             continue
         dist[dx][dy] = dist[cx][cy]+1
         Q.append((dx,dy))
-        
-for line in dist:
-    print(line)
+
+# print()        
+# for line in dist:
+#     print(line)
 print(dist[n-1][m-1]+1)       
 
