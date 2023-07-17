@@ -21,6 +21,7 @@
 | 2023-05-15 | :film_strip: [덱](https://www.youtube.com/watch?v=0mEzJ4S1d8o) | :bookmark_tabs: [덱](https://www.acmicpc.net/workbook/view/7311) |  🗂 [덱](https://blog.encrypted.gg/935) |
 | 2023-05-22 | :film_strip: [스택의 활용](https://www.youtube.com/watch?v=cdjjk-ryPKc) | :bookmark_tabs: [스택의 활용](https://www.acmicpc.net/workbook/view/7312) |  🗂 [스택의 활용](https://blog.encrypted.gg/936) |
 | 2023-05-29 | :film_strip: [BFS](https://www.youtube.com/watch?v=ftOmGdm95XI&list=PLtqbFd2VIQv4O6D6l9HcD732hdrnYb6CY&index=10)<br> | :bookmark_tabs: [BFS](https://www.acmicpc.net/workbook/view/7313)<br> | 🗂 [BFS](https://blog.encrypted.gg/941) 🗂 [DFS](https://blog.encrypted.gg/942) |
+| 2023-07-17 | :film_strip: [재귀](https://www.youtube.com/watch?v=8vDDJm5EewM) | :bookmark_tabs: [재귀](https://www.acmicpc.net/workbook/view/7314) |  🗂 [재귀](https://blog.encrypted.gg/943) |
 
 
 
