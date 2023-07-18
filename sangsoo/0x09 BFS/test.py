@@ -15,24 +15,25 @@ num = 0
 arealist = []
 for i in range(M):
     for j in range(N):
-        if board[i][j] == 0 or vis[i][j]: continue
+        if (board[i][j] == 0 or vis[i][j]): continue
+        q = deque()
         num += 1
-        dq = deque()
-        vis[i][j] = 1
-        dq.append((i, j))
         area = 0
-        while dq:
+        q.append((i, j))
+        vis[i][j] = 1
+        while q:
+            curx, cury = q.popleft()
             area += 1
-            curx, cury = dq.popleft()
-            for dir in range(4): # i를 사용하면 위의 for문의 i와 겹쳐서 dir로 사용해야함
+            for dir in range(4): 
                 nx = curx + dx[dir]
                 ny = cury + dy[dir]
-                if (nx<0 or nx>=M or ny<0 or ny>=N): continue
-                if (vis[nx][ny] or board[nx][ny] != 1): continue
+                if (nx < 0 or nx >= M or ny < 0 or ny >= N): continue
+                if (board[nx][ny] == 0 or vis[nx][ny]): continue
                 vis[nx][ny] = 1
-                dq.append((nx, ny))
+                q.append((nx, ny))
         arealist.append(area)
 print(num)
 arealist.sort()
 for i in range(len(arealist)):
     print(arealist[i], end = " ")
+# print(arealist)

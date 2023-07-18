@@ -18,7 +18,7 @@ for i in range(n):
         while dq:
             area += 1
             curx, cury = dq.popleft()
-            for dir in range(4):
+            for dir in range(4): # i를 사용하면 위의 for문의 i와 겹쳐서 dir로 사용해야함
                 nx = curx + dx[dir]
                 ny = cury + dy[dir]
                 if (nx<0 or nx>=n or ny<0 or ny>=m): continue
