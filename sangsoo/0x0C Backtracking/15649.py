@@ -1,21 +1,16 @@
-import sys
-n, m = map(int, sys.stdin.readline().split())
-
-arr = [0 for _ in range(10)]
-isused = [0 for _ in range(10)]
-
+N, M = map(int, input().split())
+arr = [0 for _ in range(M)]
+isused = [0 for _ in range(N)]
 def func(k:int)->None:
-    if k == m:
-        for i in range(m):
+    if (k == M):
+        for i in range(M):
             print(arr[i], end = ' ')
-        print()
-        return
-    
-    for i in range(1, n+1):
-        if (not isused[i]):
-            arr[k] = i
+        print("")
+        return # return 안 넣어주면 에러
+    for i in range(N):
+        if(not isused[i]):
             isused[i] = 1
+            arr[k] = i+1
             func(k+1)
             isused[i] = 0
-
 func(0)

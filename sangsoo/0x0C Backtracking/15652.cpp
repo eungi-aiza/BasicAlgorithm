@@ -1,31 +1,26 @@
-// N과 M(4)
-// N개 중에서 M 개뽑는데,
-// M개 사이에는 중복허용 sample 간에는 중복 미허용
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
-int n, m;
+int N, M;
 int arr[10];
+int isused[10];
 
-void func(int k){
-    if(k==m){
-        for (int i = 0; i < m; i++){
+void func(int k, int st){
+    if(k == M){
+        for(int i = 0; i < M; i++)
             cout << arr[i] << ' ';
-        }
         cout << '\n';
-        return;
+        return; // return 꼭 넣어줘야 함        
     }
-    int st = 1;
-    if (k!=0) st = arr[k-1];
-    for(int i=st; i<=n;i++){
-        arr[k] = i;
-        func(k+1);
+    for(int i = st; i < N; i++){
+        arr[k] = i + 1;
+        func(k+1, i);
     }
 }
 
 int main(){
     ios::sync_with_stdio(0);
     cin.tie(0);
-    cin >> n >> m;
-    func(0);
+    cin >> N >> M ;
+    func(0, 0);
 }
