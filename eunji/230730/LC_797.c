@@ -20,7 +20,7 @@ void backtracking(
     int** result,
     int arrLen){
 
-    printf("f");
+    // printf("f");
     arrLen ++;
     // printf("%d\n", graphColSize[start]);
     if (start == end){
