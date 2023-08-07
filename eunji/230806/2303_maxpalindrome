@@ -35,12 +35,20 @@ def palindrome(start_node):
 
 def print_linkedlist(start_node):
     while (True):
-        print(start_node.val)
+        print(start_node.val, '->')
         if ( start_node.next == None): break
         start_node = start_node.next
 
 
 ## TODO : issub, maxpalindrome
+
+def issub(s, t):
+    return
+
+
+def maxpalindrome(s):
+    return
+
 
 node5 = ListNode(1)
 node4 = ListNode(2, node5)
@@ -49,5 +57,5 @@ node2 = ListNode(3, node3)
 node1 = ListNode(1, node2)
 
 print_linkedlist(node1)
-result = palindrome(node1)
+result = maxpalindrome(node1)
 print(result)
