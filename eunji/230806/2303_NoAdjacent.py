@@ -27,16 +27,31 @@ def combs_make(s):
 
 
 def filter(combs, A):
-    for i in combs:
-        for j in range(len(i)):
-            if ((j+1 < len(i)) and 
-                    ((i[j+1] == A[A.index(i[j])+1]) or 
-                    (i[j+1] == A[A.index(i[j])-1]))):
-                continue
-            if (j-1 >= 0) and ((i[j-1] == A[A.index(i[j])+1]) or (i[j-1] == A[A.index(i[j])-1])):
-                continue
-            # print(i)
-            return ''.join(i)
+    '''
+    [INPUT] 
+    A : 'abc'
+    combs : [['a', 'b', 'c'], ['a', 'c', 'b'], ['b', 'a', 'c'], ['b', 'c', 'a'], ['c', 'a', 'b'], ['c', 'b', 'a']]
+
+    [OUTPUT]
+    any string among combs in which no adjacent letter locate beside.
+    If there's no such as return ''
+    '''
+    for comb in combs:
+        is_valid = True
+        for j in range(len(comb)-1):
+            # Get the indices in the original string
+            index1 = A.index(comb[j])
+            index2 = A.index(comb[j+1])
+
+            # If the difference is 1, they are adjacent in the original string
+            if abs(index1 - index2) == 1:
+                is_valid = False
+                break
+
+        if is_valid:
+            # Convert list of characters back to a string
+            return ''.join(comb)
+    return ""
    
    
 def foo(A):   
@@ -45,7 +60,7 @@ def foo(A):
     print(ans)
         
                 
-A = 'abc'
+A = 'abcdef'
 combs = combs_make(A)
-# foo(A)
-print(combs)
+foo(A)
+# print(combs)
