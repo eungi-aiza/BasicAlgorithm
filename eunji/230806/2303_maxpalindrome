@@ -1,0 +1,53 @@
+
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+
+def palindrome(start_node):
+    if start_node == None or start_node.next == None:
+        return True
+
+    prev = start_node
+    nxt = start_node.next
+    
+    while nxt:
+        prev = prev.next
+        nxt = nxt.next
+        if nxt:
+            nxt = nxt.next
+
+    prev_rev = None
+    while prev:
+        temp = prev.next
+        prev.next = prev_rev
+        prev_rev = prev
+        prev = temp
+
+    while prev_rev:
+        if start_node.val != prev_rev.val:
+            return False
+        start_node = start_node.next
+        prev_rev = prev_rev.next
+
+    return True
+
+def print_linkedlist(start_node):
+    while (True):
+        print(start_node.val)
+        if ( start_node.next == None): break
+        start_node = start_node.next
+
+
+## TODO : issub, maxpalindrome
+
+node5 = ListNode(1)
+node4 = ListNode(2, node5)
+node3 = ListNode(3, node4)
+node2 = ListNode(3, node3)
+node1 = ListNode(1, node2)
+
+print_linkedlist(node1)
+result = palindrome(node1)
+print(result)
