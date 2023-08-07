@@ -23,6 +23,7 @@
 | 2023-05-29 | :film_strip: [BFS](https://www.youtube.com/watch?v=ftOmGdm95XI&list=PLtqbFd2VIQv4O6D6l9HcD732hdrnYb6CY&index=10)<br> | :bookmark_tabs: [BFS](https://www.acmicpc.net/workbook/view/7313)<br> | 🗂 [BFS](https://blog.encrypted.gg/941) 🗂 [DFS](https://blog.encrypted.gg/942) |
 | 2023-07-17 | :film_strip: [재귀](https://www.youtube.com/watch?v=8vDDJm5EewM) | :bookmark_tabs: [재귀](https://www.acmicpc.net/workbook/view/7314) |  🗂 [재귀](https://blog.encrypted.gg/943) |
 | 2023-07-24 | :film_strip: [백트래킹](https://www.youtube.com/watch?v=Enz2csssTCs) | :bookmark_tabs: [백트래킹](https://www.acmicpc.net/workbook/view/7315) |  🗂 [백트래킹](https://blog.encrypted.gg/945) |
+| 2023-08-07 | :film_strip: [시뮬레이션](http://youtube.com/watch?v=jZwf4OPlhtk) | :bookmark_tabs: [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) |  🗂 [시뮬레이션](https://blog.encrypted.gg/948) |
 
 
 
