@@ -4,14 +4,23 @@ class ListNode:
         self.val = val
         self.next = next
 
+def copy(start_node):
+    copy_node = ListNode(start_node.val)
+    ans = copy_node
+    while start_node.next:
+        start_node = start_node.next
+        temp = ListNode(start_node.val)
+        copy_node.next = temp
+        copy_node = copy_node.next
+    return ans
+
 
 def palindrome(start_node):
     if start_node == None or start_node.next == None:
         return True
-    print("1")
-    print_linkedlist(start_node)
-    prev = ListNode(start_node.val, start_node.next)
-    nxt = start_node.next
+    
+    prev = copy(start_node)
+    nxt = prev.next
     
     # fast nxt & slow nxt
     while nxt:
@@ -19,28 +28,22 @@ def palindrome(start_node):
         nxt = nxt.next
         if nxt:
             nxt = nxt.next
-    print("2")
-    print_linkedlist(start_node)
 
     # reverse 
-    mid = ListNode(prev.val, prev.next)
+    mid = prev
     prev_rev = None
     while mid: # middle node
         temp = mid.next
         mid.next = prev_rev
         prev_rev = mid
         mid = temp
-    print("3")
-    print_linkedlist(start_node)
 
-    node = ListNode(start_node.val, start_node.next)
+    node = copy(start_node)
     while prev_rev:
         if node.val != prev_rev.val:
             return False
         node = node.next
         prev_rev = prev_rev.next
-    print("4")
-    print_linkedlist(start_node)
 
     return True
 
@@ -108,15 +111,7 @@ def maxpalindrome(s):
     while window:
         for i in range(length - window + 1):
             sub = slicing(s, i, window)
-            print('bf')
-            print_linkedlist(sub)
-
-            print(window, palindrome(sub))
-            print('af')
-            print_linkedlist(sub)
-            
             if palindrome(sub): 
-                print(';')
                 return sub
         window -= 1
 
@@ -124,22 +119,11 @@ def maxpalindrome(s):
 
 
 node5 = ListNode(1)
-node4 = ListNode(2, node5)
-node3 = ListNode(3, node4)
-node2 = ListNode(3, node3)
-node1 = ListNode(2, node2)
+node4 = ListNode(5, node5)
+node3 = ListNode(2, node4)
+node2 = ListNode(1, node3)
+node1 = ListNode(3, node2)
 
-
-# node2_ = ListNode(1)
-# node1_ = ListNode(2, node2_)
-
-# print_linkedlist(node1)
-# print_linkedlist(node1_)
-
-# issu = issub(node1, node1_)
-# print(issu)
-# sub = slicing(node1, 1, 3)
-# print_linkedlist(sub)
 
 result = maxpalindrome(node1)
 print_linkedlist(result)
