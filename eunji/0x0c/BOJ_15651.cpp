@@ -2,7 +2,6 @@
 using namespace std;
 
 void backtracking(
-  int start,
   int* arr,
   int curr,
   int N,
@@ -13,12 +12,11 @@ void backtracking(
       }
       cout << "\n";
       return;
-    }
-    
+    }    
 
     for (int i=1; i<=N; i++){  
       arr[curr] = i; 
-      backtracking(i, arr, curr+1, N, M);
+      backtracking(arr, curr+1, N, M);
     }
 }
 
@@ -29,11 +27,6 @@ int main(){
   cin >> N >> M;
 
   int arr[10] = {};
-
-  for (int i=1; i<=N; i++){
-    arr[0] = i;
-    backtracking(i, arr, 1, N, M);
-  }
-
+  backtracking(arr, 0, N, M);
   return 0;
 }
