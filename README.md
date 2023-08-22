@@ -24,7 +24,7 @@
 | 2023-07-17 | :film_strip: [재귀](https://www.youtube.com/watch?v=8vDDJm5EewM) | :bookmark_tabs: [재귀](https://www.acmicpc.net/workbook/view/7314) |  🗂 [재귀](https://blog.encrypted.gg/943) |
 | 2023-07-24 | :film_strip: [백트래킹](https://www.youtube.com/watch?v=Enz2csssTCs) | :bookmark_tabs: [백트래킹](https://www.acmicpc.net/workbook/view/7315) |  🗂 [백트래킹](https://blog.encrypted.gg/945) |
 | 2023-08-07 | :film_strip: [시뮬레이션](http://youtube.com/watch?v=jZwf4OPlhtk) | :bookmark_tabs: [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) |  🗂 [시뮬레이션](https://blog.encrypted.gg/948) |
-
+| 2023-08-21 | :film_strip: [그래프](https://youtu.be/9iI6fuOLiLg) | :bookmark_tabs: [그래프](https://www.acmicpc.net/workbook/view/9562) |  🗂 [그래프](https://blog.encrypted.gg/1016) |
 
 
 ## :1st_place_medal: Status
