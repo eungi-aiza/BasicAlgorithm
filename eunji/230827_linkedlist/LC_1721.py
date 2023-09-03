@@ -66,7 +66,6 @@ class Solution:
         rev_head = self.reverse_ll(head)
         while (k_temp):
             head = head.next
-            rev_head = rev_head.next
             k_temp -= 1   
         print(rev_head.val)
         print(head.val)
