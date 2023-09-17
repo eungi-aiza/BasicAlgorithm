@@ -7,23 +7,33 @@ using namespace std;
 #define Y second
 #define INF (0x3f3f3f3f)
 
-vector<pair<int, int>> adj[20005];
-int fix[20005] = {};
-int d[20005];
-int V = 10;
+
+vector<pair<int, int>> adj[20005]; // 각 정점의 인접 리스트
+int fix[20005] = {}; // 정점이 처리되었는지 여부
+int d[20005]; // 각 정점까지의 최소 거리
+int V = 10; // 정점의 수
 
 void dijkstra_naive(int st) {
-    fill(d, d + V + 1, INF);
-    d[st] = 0;
+    fill(d, d + V + 1, INF); // 모든 정점까지의 거리를 무한대로 초기화
+    d[st] = 0; // 출발 정점까지의 거리를 0으로 설정
+    
     while (1) {
         int idx = -1;
+        
+        // 아직 처리되지 않은 정점 중에서 가장 작은 거리를 가진 정점을 찾습니다.
         for (int i = 1; i <= V; i++) {
             if (fix[i]) continue;
             if (idx == -1) idx = i;
             else if (d[i] < d[idx]) idx = i;
         }
+        
+        // 정점을 찾지 못하거나 가장 작은 거리가 무한대인 경우 루프를 종료
         if (idx == -1 || d[idx] == INF) break;
+        
+        // 고른 정점 처리 표시
         fix[idx] = 1;
+        
+        // 고른 정점을 통해 이웃 정점까지의 거리를 업데이트
         for (auto nxt : adj[idx]) {
             d[nxt.Y] = min(d[nxt.Y], d[idx] + nxt.X);
         }
