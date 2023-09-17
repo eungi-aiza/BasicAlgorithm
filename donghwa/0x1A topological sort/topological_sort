@@ -1,0 +1,2 @@
+DFS로 neighbor들 들어갔다가 길이 막히면 stack에 저장을 해놓고, 
+stack 하나씩 pop해서 줄 지어놓으면 Topological sort

@@ -1,3 +1,7 @@
+"""
+완성되지 않은 답변임. chatgpt 폴더 참고 바람.
+"""
+
 class LinkedNode:
     def __init__(self, x):
         self.val = x
@@ -5,13 +9,13 @@ class LinkedNode:
     
 def getMiddle(head:LinkedNode)->LinkedNode:
     size = 0
-    cur = head.copy()
+    cur = head
     while(cur):
         cur = cur.next
         size += 1
     
     mid = size//2
-    cur = head.copy()
+    cur = head
     while(mid):
         cur = cur.next
         mid -= 1
