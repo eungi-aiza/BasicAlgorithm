@@ -1,3 +1,15 @@
+"""
+ string 인접문자 제거
+ 
+given string, return any string that
+1) 원래 string에서 adjacent했던 문자들끼리는 adjacent하지 않게
+2) 중복된 문자도 중복된 만큼
+e.g. abccde -> cacebd
+e.g. abc -> ''
+e.g. ' ' -> ' '
+이런 함수 foo(s:string) 짜기
+"""
+
 import sys
 
 s = sys.stdin.readline().rstrip()
