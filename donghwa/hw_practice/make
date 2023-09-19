@@ -1,0 +1,4 @@
+g++ -c -o main.o main.cpp 
+g++ -c -o NewBear.o NewBear.cpp
+g++ -o oop main.o NewBear.o
+./oop

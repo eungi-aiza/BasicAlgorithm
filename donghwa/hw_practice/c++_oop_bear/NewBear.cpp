@@ -1,79 +1,76 @@
+#include <stdio.h>
 #include "NewBear.h"
 
 
-/* Constructor */
+// Bear
 Bear::Bear(float aWeight){
     weight = aWeight;
 }
-
-Polar::Polar(float aWeight):Bear(aWeight){
-    aggressiveness = aWeight;
-}
-
-/* Accessors*/
-float Bear::GetWeight(void){ return weight; }
 void Bear::SetWeight(float aWeight){
     weight = aWeight;
 }
-void Bear::PrintSelf(void){ };
+float Bear::GetWeight(void){
+    return(weight);
+}
 
-
-void Polar::SetAggressiveness(void){ aggressiveness = weight; }
-float Polar::GetAggressiveness(void){ return aggressiveness; }
+// Polar, Grizzly, Black Black
+float Polar::Aggressiveness(void){
+    return(1.0 * weight);
+}
 void Polar::PrintSelf(void){
-    printf("I am Polar bear, Weight={%d}, Aggressiveness={%d}", GetWeight(), GetAggressiveness());
+    printf("I am Polar bear, Weight=%g, Aggressiveness=%g\n", weight, Aggressiveness());
 }
 
-void Grizzly::SetAggressiveness(void){ aggressiveness = 0.9 * weight; }
-float Grizzly::GetAggressiveness(void){ return aggressiveness; }
+float Grizzly::Aggressiveness(void){
+    return(0.9 * weight);
+}
 void Grizzly::PrintSelf(void){
-    printf("I am Grizzly bear, Weight={%d}, Aggressiveness={%d}", GetWeight(), GetAggressiveness());
+    printf("I am Grizzly bear, Weight=%g, Aggressiveness=%g\n", weight, Aggressiveness());
 }
 
-
-void Black::SetAggressiveness(void){ aggressiveness = 0.7 * weight; }
-float Black::GetAggressiveness(void){ return aggressiveness; }
+float Black::Aggressiveness(void){
+    return(0.7 * weight);
+}
 void Black::PrintSelf(void){
-    printf("I am Black bear, Weight={%d}, Aggressiveness={%d}", GetWeight(), GetAggressiveness());
+    printf("I am Black bear, Weight=%g, Aggressiveness=%g\n", weight, Aggressiveness());
 }
 
-/*** Constructor ***/
-Black_Momma::Black_Momma(float aWeight)
-              : Black(aWeight) // pass along to the Black constructor
-{ num_cubs = 0; }
 
-/*** Accessors ***/
-// Black* BlackMomma::GetCub(void) {
-//     return(cub);
-// }
-void Black_Momma::AddCub(Black *aCub) {
-    if (num_cubs < 2){
-        cubs.push_back(aCub);
-        num_cubs += 1;
-    }       
+// Black_Momma
+Black_Momma::Black_Momma(float aWeight):Black(aWeight){
+    count = 0;
+    cub1 = NULL;
+    cub2 = NULL;
 }
-/*** Meannness ***/
-/* Use the inherited meanness and then multiply by 2. */
-float Black_Momma::GetAggressivness(void) {
-    if (num_cubs > 0){
-        return(Black::GetAggressiveness() * 2);
+void Black_Momma::AddCub(Black *aCub){
+    if (count == 0){
+        cub1 = aCub;
+    } else if (count == 1){
+        cub2 = aCub;
     } else {
-        return(Black::GetAggressiveness());
+        printf("Error : cannot add cubs. MAX_CUBS_NUM=2");
+    }; 
+    count++;
+}
+float Black_Momma::Aggressiveness(void){
+    if (count != 0)
+        return(Black::Aggressiveness()*2);
+    else
+        return (Black::Aggressiveness());
+}
+float Black_Momma::TotalAggressiveness(void){
+    float cubAggressiveness;
+    if (count == 0){
+        cubAggressiveness = 0.0;
+    } else if (count == 1){
+        cubAggressiveness = cub1->Aggressiveness();
+    } else if (count == 2){
+        cubAggressiveness = cub1->Aggressiveness() + cub2->Aggressiveness();
     }
+    return (Aggressiveness() + cubAggressiveness);
 }
-
-float Black_Momma::TotalAggressiveness(void) {
-    float cubAggressiveness = 0;
-    for (auto cub : cubs){
-        cubAggressiveness += cub->GetAggressiveness();
-    }
-    return( GetAggressiveness() + cubAggressiveness);
-}
-
-float Black_Momma::GetNumCubs(void){
-    return num_cubs;
-}
-
 void Black_Momma::PrintSelf(void){
-    printf("I am Black with {%d} cub(s), Weight={%d}, Aggressiveness={%d}, Total Aggressiveness={%d}", GetNumCubs(), GetWeight(), GetAggressiveness());
+    printf("I am Black Mommabear, with %d of cub(s), Weight=%g, Aggressiveness=%g, Total Aggressiveness=%g\n", count, weight, Aggressiveness(), TotalAggressiveness());
 }
+
+
