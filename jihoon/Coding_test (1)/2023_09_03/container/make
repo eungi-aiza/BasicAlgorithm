@@ -1,0 +1,6 @@
+g++ -c -o main.o main.cpp 
+g++ -c -o myset.o myset.cpp
+g++ -c -o rbt.o rbt.cpp
+g++ -c -o bst.o bst.cpp
+g++ -o oop main.o myset.o rbt.o bst.o
+./oop
